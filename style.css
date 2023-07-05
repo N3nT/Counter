@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Oxygen', sans-serif;
+}
+h1{
+    font-size: 72px;
+}
+p{
+    font-size: 68px;
+}
+#wrap{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+button{
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+#decrease{
+    background-color: red;
+}
+#decrease:hover{
+    background-color: rgb(170, 24, 24);
+    color: white;
+    transition: ease-in-out .1s;
+}
+#decrease:active{
+    background-color: rgb(255, 255, 255);
+    color: red;
+}
+#reset{
+    background-color: rgb(134, 134, 134);
+}
+#reset:hover{
+    background-color: rgb(80, 80, 80);
+    color: white;
+    transition: ease-in-out .1s;
+}
+#reset:active{
+    background-color: rgb(255, 255, 255);
+    color: rgb(134, 134, 134);
+}
+#increase{
+    background-color: green;
+}
+#increase:hover{
+    background-color: rgb(1, 95, 1);
+    color: white;
+    transition: ease-in-out .1s;
+}
+#increase:active{
+    background-color: rgb(255, 255, 255);
+    color: green;
+}
